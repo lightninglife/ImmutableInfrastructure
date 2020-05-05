@@ -1,6 +1,6 @@
 <h1>Immutable Infrastructure Using Packer, Ansible, and Terraform</h1>
 
-<h3><i>Step-by-step journal with best practice and more …</i></h3>
+<h3><i>Step-by-step journal with best practice and more …</i></h3> For the project tutorial, please visit <a href="https://medium.com/paul-zhao-projects/immutable-infrastructure-using-packer-ansible-and-terraform-a275aa6e9ff7?source=friends_link&sk=9b6409cafb51dd078e2d426b7ee5abdc">here</a>.
 
 We get started by using terraform to provision our servers and later employing ansible on instances for configuration management. This allows us to add times when provisioning servers. So that the process will not continue until configuration completes. In terms of configuration, we will be using Packer. Packer is an open source tool for creating identical machine images for multiple platforms from a single source configuration. Packer is lightweight, runs on every major operating system, and is highly performant, creating machine images for multiple platforms in parallel. Packer does not replace configuration management like Chef or Puppet. In fact, when building images, Packer is able to use tools like Chef or Puppet to install software onto the image.
 
